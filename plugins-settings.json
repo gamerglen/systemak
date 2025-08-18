@@ -1,0 +1,67 @@
+{
+    "9c40819b-4a8f-468f-9ba5-4b9699f3361f": {
+        "id": "6ca80422-3c53-481c-b8f8-49bad9efd186",
+        "name": "Charts",
+        "designId": "80a5ea79-c33b-4732-b6df-029c6d6b942f",
+        "pluginId": "9c40819b-4a8f-468f-9ba5-4b9699f3361f",
+        "publicData": {}
+    },
+    "ee24f5ac-e15e-4ddd-baa4-0b4baedf90c9": {
+        "id": "67f54f09-bc43-4a0a-89c4-8203734224cc",
+        "name": "CSV",
+        "designId": "80a5ea79-c33b-4732-b6df-029c6d6b942f",
+        "pluginId": "ee24f5ac-e15e-4ddd-baa4-0b4baedf90c9",
+        "publicData": {}
+    },
+    "69d4a5bb-09a3-4f3d-a94e-667c21c057eb": {
+        "id": "1cb432a3-01bc-4413-b677-f61bfa6df386",
+        "name": "NPM",
+        "designId": "80a5ea79-c33b-4732-b6df-029c6d6b942f",
+        "pluginId": "69d4a5bb-09a3-4f3d-a94e-667c21c057eb",
+        "publicData": {
+            "packages": [
+                {
+                    "link": "http://pdfmake.org",
+                    "name": "pdfmake",
+                    "version": "0.2.20",
+                    "instanceName": "_"
+                }
+            ]
+        }
+    },
+    "97e7b1ae-f88a-4697-849c-ee56ab49bb48": {
+        "id": "aa05aefe-de36-4269-bfc0-e5bd8ae8e240",
+        "name": "JavaScript",
+        "designId": "80a5ea79-c33b-4732-b6df-029c6d6b942f",
+        "pluginId": "97e7b1ae-f88a-4697-849c-ee56ab49bb48",
+        "publicData": {}
+    },
+    "f9ef41c3-1c53-4857-855b-f2f6a40b7186": {
+        "id": "727cc2ef-caa0-4319-a75e-ddccb5893899",
+        "name": "Supabase",
+        "designId": "80a5ea79-c33b-4732-b6df-029c6d6b942f",
+        "pluginId": "f9ef41c3-1c53-4857-855b-f2f6a40b7186",
+        "publicData": {
+            "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im95d2RuYW1ndXFzY3JrdmViYXV4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA1MDgxMTQsImV4cCI6MjA2NjA4NDExNH0.gA_dfHrBbTyMyE0QupEYNAAUzq_IaMalViDho5n2Irg",
+            "projectUrl": "https://oywdnamguqscrkvebaux.supabase.co",
+            "realtimeTables": {}
+        }
+    },
+    "832d6f7a-42c3-43f1-a3ce-9a678272f811": {
+        "id": "c2034a10-56e0-452d-bc56-9b9ddf7c6f93",
+        "name": "Date",
+        "designId": "80a5ea79-c33b-4732-b6df-029c6d6b942f",
+        "pluginId": "832d6f7a-42c3-43f1-a3ce-9a678272f811",
+        "publicData": {}
+    },
+    "1fa0dd68-5069-436c-9a7d-3b54c340f1fa": {
+        "id": "01c36fbe-d3cd-46a4-8597-97d414edb8cf",
+        "name": "Supabase Auth",
+        "designId": "80a5ea79-c33b-4732-b6df-029c6d6b942f",
+        "pluginId": "1fa0dd68-5069-436c-9a7d-3b54c340f1fa",
+        "publicData": {
+            "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im95d2RuYW1ndXFzY3JrdmViYXV4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA1MDgxMTQsImV4cCI6MjA2NjA4NDExNH0.gA_dfHrBbTyMyE0QupEYNAAUzq_IaMalViDho5n2Irg",
+            "projectUrl": "https://oywdnamguqscrkvebaux.supabase.co"
+        }
+    }
+}
