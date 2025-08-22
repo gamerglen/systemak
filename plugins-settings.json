@@ -6,13 +6,6 @@
         "pluginId": "9c40819b-4a8f-468f-9ba5-4b9699f3361f",
         "publicData": {}
     },
-    "ee24f5ac-e15e-4ddd-baa4-0b4baedf90c9": {
-        "id": "67f54f09-bc43-4a0a-89c4-8203734224cc",
-        "name": "CSV",
-        "designId": "80a5ea79-c33b-4732-b6df-029c6d6b942f",
-        "pluginId": "ee24f5ac-e15e-4ddd-baa4-0b4baedf90c9",
-        "publicData": {}
-    },
     "69d4a5bb-09a3-4f3d-a94e-667c21c057eb": {
         "id": "1cb432a3-01bc-4413-b677-f61bfa6df386",
         "name": "NPM",
