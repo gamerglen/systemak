@@ -61,10 +61,12 @@ import 'swiper/css/effect-flip';
 import 'swiper/css/effect-cube';
 
 import { getContent } from './getContent.js';
+import { useImageTracking } from './useImageTracking.js';
 
 export default {
     props: {
         content: { type: Object, required: true },
+        uid: { type: String, required: true },
         wwFrontState: { type: Object, required: true },
     },
     emits: ['update:content', 'update:sidepanel-content'],
@@ -75,6 +77,7 @@ export default {
         const sliderIndex = ref(0);
         const componentKey = ref(0);
         const isInit = ref(false);
+
 
         const isEditing = computed(() => {
             // eslint-disable-next-line no-unreachable
@@ -90,6 +93,8 @@ export default {
             const content = getContent(props.content.mainLayoutContent);
             return content.length;
         });
+
+        const { slideImageStates, slideImageStatesWithAggregates, allImagesLoaded, initImageTracking, scanExistingSlides } = useImageTracking(swiper, nbOfSlides);
 
         const slidesPerView = computed(() => {
             let slidePerView = props.content.slidesPerView;
@@ -248,6 +253,9 @@ export default {
 
                 if (resetIndex) slideTo(0);
 
+                // Scan existing slides for images after Swiper is fully initialized
+                scanExistingSlides();
+
                 // Ensures that autoplay does not continue when editing
                 handleAutoplay();
             } catch (error) {
@@ -263,6 +271,7 @@ export default {
             () => props.content.mainLayoutContent,
             () => {
                 initSwiper(true);
+                initImageTracking();
             }
         );
 
@@ -275,10 +284,37 @@ export default {
 
         onMounted(() => {
             initSwiper(false);
+            initImageTracking();
         });
 
         onBeforeUnmount(() => {
             if (swiperInstance.value) swiperInstance.value.destroy(true, true);
+        });
+
+        // Create component variables for external binding (accessible in WeWeb editor)
+        const slideImageStatesVariable = wwLib.wwVariable.useComponentVariable({
+            uid: props.uid,
+            name: 'slideImageStates',
+            defaultValue: slideImageStatesWithAggregates,
+            type: 'any',
+            readonly: true
+        });
+
+        const allImagesLoadedVariable = wwLib.wwVariable.useComponentVariable({
+            uid: props.uid,
+            name: 'allImagesLoaded', 
+            defaultValue: allImagesLoaded,
+            type: 'boolean',
+            readonly: true
+        });
+
+        // Watch and update component variables when states change
+        watch(slideImageStatesWithAggregates, (newValue) => {
+            slideImageStatesVariable.setValue(newValue);
+        });
+
+        watch(allImagesLoaded, (newValue) => {
+            allImagesLoadedVariable.setValue(newValue);
         });
 
         wwLib.wwElement.useRegisterElementLocalContext(
@@ -291,6 +327,8 @@ export default {
                 showLeftNav,
                 showRightNav,
                 numberOfBullets,
+                slideImageStates: slideImageStatesWithAggregates,
+                allImagesLoaded,
             },
             {
                 slideTo: {
