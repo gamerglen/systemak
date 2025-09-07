@@ -29,13 +29,6 @@
         "pluginId": "97e7b1ae-f88a-4697-849c-ee56ab49bb48",
         "publicData": {}
     },
-    "832d6f7a-42c3-43f1-a3ce-9a678272f811": {
-        "id": "c2034a10-56e0-452d-bc56-9b9ddf7c6f93",
-        "name": "Date",
-        "designId": "80a5ea79-c33b-4732-b6df-029c6d6b942f",
-        "pluginId": "832d6f7a-42c3-43f1-a3ce-9a678272f811",
-        "publicData": {}
-    },
     "1fa0dd68-5069-436c-9a7d-3b54c340f1fa": {
         "id": "01c36fbe-d3cd-46a4-8597-97d414edb8cf",
         "name": "Supabase Auth",
@@ -45,6 +38,13 @@
             "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im95d2RuYW1ndXFzY3JrdmViYXV4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA1MDgxMTQsImV4cCI6MjA2NjA4NDExNH0.gA_dfHrBbTyMyE0QupEYNAAUzq_IaMalViDho5n2Irg",
             "projectUrl": "https://oywdnamguqscrkvebaux.supabase.co"
         }
+    },
+    "832d6f7a-42c3-43f1-a3ce-9a678272f811": {
+        "id": "c2034a10-56e0-452d-bc56-9b9ddf7c6f93",
+        "name": "Date",
+        "designId": "80a5ea79-c33b-4732-b6df-029c6d6b942f",
+        "pluginId": "832d6f7a-42c3-43f1-a3ce-9a678272f811",
+        "publicData": {}
     },
     "f9ef41c3-1c53-4857-855b-f2f6a40b7186": {
         "id": "727cc2ef-caa0-4319-a75e-ddccb5893899",
