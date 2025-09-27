@@ -56,5 +56,12 @@
             "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im95d2RuYW1ndXFzY3JrdmViYXV4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA1MDgxMTQsImV4cCI6MjA2NjA4NDExNH0.gA_dfHrBbTyMyE0QupEYNAAUzq_IaMalViDho5n2Irg",
             "projectUrl": "https://oywdnamguqscrkvebaux.supabase.co"
         }
+    },
+    "2bd1c688-31c5-443e-ae25-59aa5b6431fb": {
+        "id": "64740e3a-787d-4b89-8e36-6b8c4e7ed116",
+        "name": "REST API",
+        "designId": "80a5ea79-c33b-4732-b6df-029c6d6b942f",
+        "pluginId": "2bd1c688-31c5-443e-ae25-59aa5b6431fb",
+        "publicData": {}
     }
 }
