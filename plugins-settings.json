@@ -1,45 +1,45 @@
 {
     "9c40819b-4a8f-468f-9ba5-4b9699f3361f": {
-        "id": "6ca80422-3c53-481c-b8f8-49bad9efd186",
+        "id": "3ab30837-e8db-4541-a66b-9a52b8eb8676",
         "name": "Charts",
-        "designId": "80a5ea79-c33b-4732-b6df-029c6d6b942f",
+        "designId": "78ca50c7-6bef-4d1f-a14d-3a21a88953d3",
         "pluginId": "9c40819b-4a8f-468f-9ba5-4b9699f3361f",
         "publicData": {}
     },
     "69d4a5bb-09a3-4f3d-a94e-667c21c057eb": {
-        "id": "1cb432a3-01bc-4413-b677-f61bfa6df386",
+        "id": "6840bc2b-bdc1-4884-b003-6b6ccb9af262",
         "name": "NPM",
-        "designId": "80a5ea79-c33b-4732-b6df-029c6d6b942f",
+        "designId": "78ca50c7-6bef-4d1f-a14d-3a21a88953d3",
         "pluginId": "69d4a5bb-09a3-4f3d-a94e-667c21c057eb",
         "publicData": {
             "packages": []
         }
     },
     "8bc1b5c9-29e4-4269-becb-a2e1a8de9127": {
-        "id": "28ae611d-e7c7-456b-aa59-40502ddd3e67",
+        "id": "cd3fbb9b-0f5f-468f-8ce9-21075ce8aad7",
         "name": "WeWeb Email",
-        "designId": "80a5ea79-c33b-4732-b6df-029c6d6b942f",
+        "designId": "78ca50c7-6bef-4d1f-a14d-3a21a88953d3",
         "pluginId": "8bc1b5c9-29e4-4269-becb-a2e1a8de9127",
         "publicData": {}
     },
     "97e7b1ae-f88a-4697-849c-ee56ab49bb48": {
-        "id": "aa05aefe-de36-4269-bfc0-e5bd8ae8e240",
+        "id": "5f8432ad-333c-4779-8d42-39a059ad8c5f",
         "name": "JavaScript",
-        "designId": "80a5ea79-c33b-4732-b6df-029c6d6b942f",
+        "designId": "78ca50c7-6bef-4d1f-a14d-3a21a88953d3",
         "pluginId": "97e7b1ae-f88a-4697-849c-ee56ab49bb48",
         "publicData": {}
     },
     "832d6f7a-42c3-43f1-a3ce-9a678272f811": {
-        "id": "c2034a10-56e0-452d-bc56-9b9ddf7c6f93",
+        "id": "47302cdf-12be-4692-a243-9da87e9200eb",
         "name": "Date",
-        "designId": "80a5ea79-c33b-4732-b6df-029c6d6b942f",
+        "designId": "78ca50c7-6bef-4d1f-a14d-3a21a88953d3",
         "pluginId": "832d6f7a-42c3-43f1-a3ce-9a678272f811",
         "publicData": {}
     },
     "1fa0dd68-5069-436c-9a7d-3b54c340f1fa": {
-        "id": "01c36fbe-d3cd-46a4-8597-97d414edb8cf",
+        "id": "a8e25583-636f-4154-bcf3-a6928e44d5e9",
         "name": "Supabase Auth",
-        "designId": "80a5ea79-c33b-4732-b6df-029c6d6b942f",
+        "designId": "78ca50c7-6bef-4d1f-a14d-3a21a88953d3",
         "pluginId": "1fa0dd68-5069-436c-9a7d-3b54c340f1fa",
         "publicData": {
             "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im95d2RuYW1ndXFzY3JrdmViYXV4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA1MDgxMTQsImV4cCI6MjA2NjA4NDExNH0.gA_dfHrBbTyMyE0QupEYNAAUzq_IaMalViDho5n2Irg",
@@ -52,16 +52,16 @@
         }
     },
     "2bd1c688-31c5-443e-ae25-59aa5b6431fb": {
-        "id": "64740e3a-787d-4b89-8e36-6b8c4e7ed116",
+        "id": "cb6b08e5-e126-426f-9de1-abef778239e1",
         "name": "REST API",
-        "designId": "80a5ea79-c33b-4732-b6df-029c6d6b942f",
+        "designId": "78ca50c7-6bef-4d1f-a14d-3a21a88953d3",
         "pluginId": "2bd1c688-31c5-443e-ae25-59aa5b6431fb",
         "publicData": {}
     },
     "f9ef41c3-1c53-4857-855b-f2f6a40b7186": {
-        "id": "727cc2ef-caa0-4319-a75e-ddccb5893899",
+        "id": "cbd3a976-d33b-43c1-90d4-e1dc4aa9e898",
         "name": "Supabase",
-        "designId": "80a5ea79-c33b-4732-b6df-029c6d6b942f",
+        "designId": "78ca50c7-6bef-4d1f-a14d-3a21a88953d3",
         "pluginId": "f9ef41c3-1c53-4857-855b-f2f6a40b7186",
         "publicData": {
             "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im95d2RuYW1ndXFzY3JrdmViYXV4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA1MDgxMTQsImV4cCI6MjA2NjA4NDExNH0.gA_dfHrBbTyMyE0QupEYNAAUzq_IaMalViDho5n2Irg",
