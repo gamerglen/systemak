@@ -36,6 +36,13 @@
         "pluginId": "832d6f7a-42c3-43f1-a3ce-9a678272f811",
         "publicData": {}
     },
+    "2bd1c688-31c5-443e-ae25-59aa5b6431fb": {
+        "id": "cb6b08e5-e126-426f-9de1-abef778239e1",
+        "name": "REST API",
+        "designId": "78ca50c7-6bef-4d1f-a14d-3a21a88953d3",
+        "pluginId": "2bd1c688-31c5-443e-ae25-59aa5b6431fb",
+        "publicData": {}
+    },
     "1fa0dd68-5069-436c-9a7d-3b54c340f1fa": {
         "id": "a8e25583-636f-4154-bcf3-a6928e44d5e9",
         "name": "Supabase Auth",
@@ -45,18 +52,17 @@
             "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im95d2RuYW1ndXFzY3JrdmViYXV4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA1MDgxMTQsImV4cCI6MjA2NjA4NDExNH0.gA_dfHrBbTyMyE0QupEYNAAUzq_IaMalViDho5n2Irg",
             "roleTable": "roles",
             "projectUrl": "https://oywdnamguqscrkvebaux.supabase.co",
+            "environments": {
+                "production": {
+                    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im95d2RuYW1ndXFzY3JrdmViYXV4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA1MDgxMTQsImV4cCI6MjA2NjA4NDExNH0.gA_dfHrBbTyMyE0QupEYNAAUzq_IaMalViDho5n2Irg",
+                    "projectUrl": "https://oywdnamguqscrkvebaux.supabase.co"
+                }
+            },
             "userRoleTable": "profiles",
             "roleTableNameColumn": "name",
             "userRoleTableRoleColumn": "role_id",
             "userRoleTableUserColumn": "id"
         }
-    },
-    "2bd1c688-31c5-443e-ae25-59aa5b6431fb": {
-        "id": "cb6b08e5-e126-426f-9de1-abef778239e1",
-        "name": "REST API",
-        "designId": "78ca50c7-6bef-4d1f-a14d-3a21a88953d3",
-        "pluginId": "2bd1c688-31c5-443e-ae25-59aa5b6431fb",
-        "publicData": {}
     },
     "f9ef41c3-1c53-4857-855b-f2f6a40b7186": {
         "id": "cbd3a976-d33b-43c1-90d4-e1dc4aa9e898",
@@ -72,7 +78,45 @@
                     "projectUrl": "https://oywdnamguqscrkvebaux.supabase.co"
                 }
             },
-            "realtimeTables": {}
+            "realtimeTables": {
+                "calls": true,
+                "deals": true,
+                "files": true,
+                "leads": true,
+                "roles": true,
+                "tasks": true,
+                "emails": true,
+                "offices": true,
+                "meetings": true,
+                "profiles": true,
+                "campaigns": true,
+                "deal_stage": true,
+                "properties": true,
+                "task_files": true,
+                "call_result": true,
+                "call_status": true,
+                "lead_status": true,
+                "task_status": true,
+                "users_roles": true,
+                "lead_sources": true,
+                "client_gender": true,
+                "meeting_files": true,
+                "notifications": true,
+                "task_priority": true,
+                "call_direction": true,
+                "gmail_messages": true,
+                "property_files": true,
+                "calls_per_month": true,
+                "email_templates": true,
+                "meetings_status": true,
+                "property_status": true,
+                "call_contact_type": true,
+                "property_finishing": true,
+                "campaign_recipients": true,
+                "new_leads_per_month": true,
+                "calls_per_month_full": true,
+                "new_leads_with_all_months": true
+            }
         }
     }
 }
